@@ -9,6 +9,7 @@ import time
 
 ser = [['Agride',1],
 ['Atcham',2],
+['Boune',3],
 ['Brumen',3],
 ['Crail',4],
 ['Echo',5],
@@ -21,18 +22,15 @@ ser = [['Agride',1],
 ['Julith',12],
 ['Meriana',13],
 ['Merkator',14],
-['Monocompte IX',15], 
-['Monocompte VII',16], 
-['Monocompte X ',17],
-['Nidas',18],
-['Ombre(Shadow)',19], 
-['Oto Mustam',20],
-['Pandore',21],
-['Rubilax',22],
-['Temporis I ',23],
-['Temporis II',24] ,
-['Thanatena',25 ],
-['USH',26]]
+['Nidas',15],
+['Ombre(Shadow)',16], 
+['Oto Mustam',17],
+['Pandore',18],
+['Rubilax',19],
+['Temporis I ',20],
+['Temporis II',21] ,
+['Thanatena',22],
+['USH',23]]
 print(tabulate(ser))
 s = int(input('Enter the number for your Server: '))
 
